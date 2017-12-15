@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333;
+    padding: 24px;
+    margin: 15px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;    
+    padding: 18px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+    padding: 0 15px;
+}
+.home {
+    position: relative;
+    top: 0px;
+    float: left;
+    width: 150px;
+    z-index: 9;
+}
+.nav-link {
+    font-size: 12px;
+    padding: 10px;
+}
+.navbar-toggler {
+    margin-right: 15px;
+}
+.img-block {
+    display: block;
+    width: 100%;
+}
+.lg-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 0; 
+    color: #fff;
+}
+.sm-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    padding: 15px 0;  
+    color: #fff;
+}
+.push-down {
+    position: relative;
+    top: 2px;
+}
+.green {
+    color: #7ED321;
+}
+.pad-50 {
+    padding-top: 50px;
+}
+.left {
+    text-align: left;
+}
+
+.pad-50b {
+    padding: 60px 0px 0px 0px;
+    margin-top: 15px;
+}
+.pad-200 {
+    padding-top: 150px;
+}
+
+.pad-45 {
+    padding-top: 42px;
+}
+
+.margin-off {
+    margin: 0px !important;
+}
+.padding-15 {
+    padding: 15px;
+}
+.marg-15 {
+    margin: 15px;
+}
+.pad-13 {
+    padding-bottom: 13px !important;
+}
+.padding-15b {
+    padding: 0 15px;
+}
+.padding-15c {
+    padding: 15px 0;
+}
+.bg-dark {
+    background-color: #333333 !important;
+    color: #fff;
+}
+.bg-grey {
+    background-color: #292b2c;
+    color: #fff;
+}
+.center-block {
+    margin: 0 auto;
+    float: none !important;
+    text-align: center;
+}
+.center {
+    margin: 0 auto;  
+    float: none !important;      
+}
+.bl {
+    color: #333;
+}
+.wt {
+    color: #fff;
+}
+.bg-wt {
+    background-color: #fff;
+}
+.banner {
+    position: relative;
+    left: -15px;
+    font-size: 9px;
+}
+.banner-2 {
+    position: relative;
+    left: -15px;
+    font-size: 9px;    
+}
+.weight {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 900;
+}
+.btn-2 {
+    width: 150px;
+}
+.btn {
+    border-radius: 0;
+}
+.btn-secondary {
+    margin-bottom: 50px;
+}
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+}
+.arrow {
+    width: 20px;
+}
+.bg-green {
+    background-color: #84C441;
+}
+.bg-drk-green {
+    background-color: #5B882C;
+    height: 100px;
+}
+.move-up {
+    position: relative;
+    top: -15px;
+}
+.padding-off {
+    padding: 0px;
+    margin: 0px;
+}
+.take-15 {
+    height: 211px;
+}
+.position-move-115 {
+    position: relative;
+    top: 115px;
+}
+.number, .number-4  {
+    max-width: 180px;
+    width: 100%;
+}
+.number-4 {
+    position: relative;
+    top: -15px;
+}
+.img-fluid {
+    height: 100%;
+    max-height: 260px;
+    width: auto;
+    margin: 0px !important;
+}
+.width-245 {
+    width: 245px;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){ 
+nav {
+    height: 60px;
+}    
+h1 {
+    font-size: 36px;
+    padding: 24px;
+    margin: 15px;
+}
+h2 {
+    font-size: 24px;
+    padding: 18px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+    padding: 0 15px;
+}
+.img-fluid {
+    height: 100%;
+    max-height: 480px;
+    margin: 0px !important;
+}
+.lg-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+.sm-top-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.text {
+    line-height: 1.0em;
+}
+}
+@media screen and (min-width: 1000px){ 
+.img-fluid {
+    height: 100%;
+    max-height: 425px;
+    margin: 0px !important;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.col-lg-3b {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 20%; 
+    max-width: 25%;
+    margin: 15px;
+}
+
+}
+@media (min-width: 1200px) {
+.marg-lg-left-5 {
+    margin-left: 5%;
+}
+.img-fluid {
+    height: 100%;
+    max-height: 490px;
+    margin: 0px !important;
+}
+}
+/*Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+}
